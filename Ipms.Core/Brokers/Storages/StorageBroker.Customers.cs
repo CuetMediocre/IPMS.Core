@@ -7,6 +7,6 @@ namespace Ipms.Core.Brokers.Storages
     {
         public DbSet<Customer> Customers { get; set; }
 
-        public IQueryable<Customer> SelectAllCustomersAsync() => this.Customers;
+        public IQueryable<Customer> SelectAllCustomers() => this.Customers;
     }
 }
